@@ -9,7 +9,7 @@ export default function RouteLayout(){
         <>
           <header>
 
-            <Link to="/" className="logo"><img src='../public/icon.png' style={{width: 50}}></img> </Link>
+            <Link to="/" className="logo"><img src='https://github.com/Osvaldo1408exe/Loja-react/blob/main/public/icon.png?raw=true' style={{width: 50}}></img> </Link>
             <nav className='navCenter'>
               <Link to="/">Início</Link>
               <Link to="/items">Items</Link>
