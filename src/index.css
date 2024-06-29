@@ -105,12 +105,12 @@ header {
 }
 .carousel-image {
   width: 100%;
-  height: 600px; /* Tamanho padrão para telas maiores */
+  height: 600px;  
 }
 
 @media (max-width: 1000px) {
   .carousel-image {
   
-    height: 300px; /* Tamanho para telas menores que 1000px */
+    height: 300px;  
   }
 }

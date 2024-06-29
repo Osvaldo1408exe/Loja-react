@@ -3,10 +3,8 @@ import RouteLayout from "./Pages/RouteLayout";
 import Home from "./Pages/Home";
 import Layout from "./Pages/items/Layout";
 import ListItems from "./Pages/items/ListItems";
-import CreateItem from "./Pages/items/CreateItem";
-import ShowItem from "./Pages/items/ShowItem";
-import UpdateItem from "./Pages/items/UpdateItem";
-
+ import ShowItem from "./Pages/items/ShowItem";
+ 
 const router = createBrowserRouter([
     {
         path:"/",
@@ -18,9 +16,8 @@ const router = createBrowserRouter([
                 element: <Layout/>,
                 children: [
                     {index:true, element: <ListItems/>},
-                    {path: "new", element: <CreateItem/>},
                     {path: ":id", element: <ShowItem/>},
-                    {path: ":id/update", element: <UpdateItem/>}
+                   
 
 
                 ]    
