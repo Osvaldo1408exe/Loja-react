@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
+ 
 
-export default function Card({ id, src, alt, title, description, route, price, carrinho }) {
+export default function Card({ id, src, title,carrinho }) {
+ 
     return (
         <div className="card" style={{width: '18rem'}}>
         <img className="card-img-top" src={src} alt="Card" />

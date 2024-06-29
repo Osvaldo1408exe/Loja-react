@@ -1,10 +1,20 @@
 import { useState } from "react";
 import Card from "../../Components/Card";
 import useFetchData from "../../hooks/useFatchData";
+import { addCart } from "../../../redux/action";
+import { useDispatch } from "react-redux";
+
 
 export default function ListItems() {
     const { data, loading, error } = useFetchData('https://fakestoreapi.com/products');
     const [selectFilter, setSelectFilter] = useState(null);
+
+    const dispatch = useDispatch();
+    const addProduct = (item) => {
+        dispatch(addCart(item));
+    }
+     
+   
 
     if (loading) {
         return (
@@ -47,6 +57,8 @@ export default function ListItems() {
                         alt={item.title}
                         price={item.price}
                         title={item.title}
+                        carrinho={() => addProduct(item)} 
+                        
                     />
                 ))}
             </div>
