@@ -26,7 +26,7 @@ export default function Contact(){
                         />
                     </div>
                     <div class="form  my-3">
-                        <label for="Senha">Menssagem</label>
+                        <label for="Senha">Mensagem</label>
                         <textarea
                         rows={5}
                         class="form-control"

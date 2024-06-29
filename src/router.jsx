@@ -6,6 +6,8 @@ import ListItems from "./Pages/items/ListItems";
  import ShowItem from "./Pages/items/ShowItem";
 import About from "./Pages/About";
 import Contact from "./Pages/items/Contact";
+import Login from "./Pages/user/Login";
+import Register from "./Pages/user/Register";
  
 const router = createBrowserRouter([
     {
@@ -14,6 +16,9 @@ const router = createBrowserRouter([
         children:[
             {path: "sobre", element: <About />},
             {path: "contato", element: <Contact />},
+            {path: "entrar", element: <Login />},
+            {path: "registrar", element: <Register />},
+
             {index: true, element: <Home/>},
            
             {

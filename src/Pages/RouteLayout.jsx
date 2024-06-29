@@ -29,9 +29,9 @@ export default function RouteLayout(){
                         <Link to="/contato" className="nav-link">Contato</Link>
                     </nav>
                     <div className="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <Link to="/login" className="btn btn-outline-dark m-2"><FontAwesomeIcon icon={faSignInAlt} /> Entrar</Link>
-                        <Link to="/register" className="btn btn-outline-dark m-2"><FontAwesomeIcon icon={faUserPlus} /> Registrar</Link>
-                        <Link to="/cart" className="btn btn-outline-dark m-2"><FontAwesomeIcon icon={faShoppingCart} /> Carrinho</Link>
+                        <Link to="/entrar" className="btn btn-outline-dark m-2"><FontAwesomeIcon icon={faSignInAlt} /> Entrar</Link>
+                        <Link to="/registrar" className="btn btn-outline-dark m-2"><FontAwesomeIcon icon={faUserPlus} /> Registrar</Link>
+                        <Link to="/carrinho" className="btn btn-outline-dark m-2"><FontAwesomeIcon icon={faShoppingCart} /> Carrinho</Link>
                     </div>
                 </div>
             </div>
