@@ -26,7 +26,7 @@ export default function RouteLayout(){
                         <Link to="/" className="nav-link">Início</Link>
                         <Link to="/items" className="nav-link">Items</Link>
                         <Link to="/sobre" className="nav-link">Sobre</Link>
-                        <Link to="/contact" className="nav-link">Contato</Link>
+                        <Link to="/contato" className="nav-link">Contato</Link>
                     </nav>
                     <div className="navbar-nav ms-auto mb-2 mb-lg-0">
                         <Link to="/login" className="btn btn-outline-dark m-2"><FontAwesomeIcon icon={faSignInAlt} /> Entrar</Link>
