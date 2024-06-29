@@ -4,24 +4,24 @@ import Home from "./Pages/Home";
 import Layout from "./Pages/items/Layout";
 import ListItems from "./Pages/items/ListItems";
  import ShowItem from "./Pages/items/ShowItem";
+import About from "./Pages/About";
  
 const router = createBrowserRouter([
     {
         path:"/",
         element: <RouteLayout />,
         children:[
-           {index: true, element: <Home/>},
-           {
+            {path: "sobre", element: <About />},
+            {index: true, element: <Home/>},
+           
+            {
                 path: "items",
                 element: <Layout/>,
                 children: [
                     {index:true, element: <ListItems/>},
                     {path: ":id", element: <ShowItem/>},
-                   
-
-
-                ]    
-           }
+                ]  
+            }
 
         ]
     }
