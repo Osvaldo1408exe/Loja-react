@@ -9,8 +9,8 @@ export default function CarouselHome() {
                 <div style={{width: '100vw', marginTop: 10}}>
                 <Carousel fade>
                     <Carousel.Item interval={3000}>
-                    <img
-                    style={{width: '100vw',height: 600}}
+                    <img className='carousel-image'
+                    
                     
                         src="https://wallpapercave.com/wp/wp4634141.jpg"
                         alt="Verão"
@@ -25,8 +25,8 @@ export default function CarouselHome() {
                     </div>
                     </Carousel.Item>
                     <Carousel.Item interval={3000}>
-                    <img
-                        style={{width: '100vw',height: 600}}
+                    <img className='carousel-image'
+                        
                       
                         src="https://wallpapercave.com/wp/wp4680551.jpg"
                         alt="Verão"
