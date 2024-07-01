@@ -36,13 +36,14 @@ export default function Home() {
             <hr />
             <h1 className="text-center">Lançamentos</h1>
             <hr />
-            <div className="fade-in card-container">
+            <div className="fade-in cards-container">
                 {filteredData.map((item) => (
                     <Card
                         key={item.id}
                         id={item.id}
                         src={item.image}
                         title={item.title}
+                        price={item.price}
                         carrinho={() => addProduct(item)}  
                     />
                 ))}

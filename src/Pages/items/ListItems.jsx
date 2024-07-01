@@ -5,6 +5,7 @@ import { addCart } from "../../../redux/action";
 import { useDispatch } from "react-redux";
 
 
+
 export default function ListItems() {
     const { data, loading, error } = useFetchData('https://fakestoreapi.com/products');
     const [selectFilter, setSelectFilter] = useState(null);
@@ -48,7 +49,7 @@ export default function ListItems() {
                 <button className="btn btn-outline-dark btn-sm m-2" onClick={() => setSelectFilter("jewelery")}>Joalheria</button>
                 <button className="btn btn-outline-dark btn-sm m-2" onClick={() => setSelectFilter("electronics")}>Eletrônicos</button>
             </div>
-            <div className="fade-in card-container">
+            <div className="fade-in cards-container">
                 {filteredData.map((item) => (
                     <Card
                         key={item.id}

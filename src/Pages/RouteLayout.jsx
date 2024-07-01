@@ -11,8 +11,8 @@ import { useSelector } from 'react-redux';
 export default function RouteLayout() {
   const [isOpen, setIsOpen] = useState(false);
   
-  // Acessa o estado do carrinho
-  const cartItems = useSelector(state => state.cart); // Certifique-se de que 'cart' corresponde ao nome no rootReducer
+   
+  const cartItems = useSelector(state => state.cart);  
 
   const toggleMenu = () => {
       setIsOpen(!isOpen);
