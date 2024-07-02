@@ -22,7 +22,7 @@ export default function Contact(){
                         type="email"
                         class="form-control"
                         id="Email"
-                        placeholder="name@examplo.com"
+                        placeholder="nome@exemplo.com"
                         />
                     </div>
                     <div class="form  my-3">

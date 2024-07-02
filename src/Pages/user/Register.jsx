@@ -15,7 +15,7 @@ export default function Register(){
                                     type="email"
                                     class="form-control"
                                     id="Name"
-                                    placeholder="Coloque seu nome completo"
+                                    placeholder=" "
                                 />
                             </div>
                             <div class="form my-3">
@@ -33,7 +33,7 @@ export default function Register(){
                                     type="password"
                                     class="form-control"
                                     id="Password"
-                                    placeholder="Password"
+                                    placeholder="*********"
                                 />
                             </div>
                             <div className="my-3">

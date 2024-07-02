@@ -7,6 +7,7 @@ import { Link, Outlet } from "react-router-dom";
 import { faShoppingCart, faSignInAlt, faUserPlus } from '@fortawesome/free-solid-svg-icons'
 import { useState } from 'react';
 import { useSelector } from 'react-redux';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 export default function RouteLayout() {
   const [isOpen, setIsOpen] = useState(false);
@@ -48,16 +49,23 @@ export default function RouteLayout() {
         <div>
           <Outlet />
         </div>
-        <footer className="mb-0 text-center">
-          <div className="d-flex align-items-center justify-content-center pb-5">
-            <div className="col-md-6">
-              <p className="mb-3 mb-md-0">Feito por  {" "}
-                <a  href="https://osvaldo1408exe.github.io/" className="text-decoration-underline text-dark fs-5" target="_blank" rel="noreferrer">Osvaldo Protazio</a>
-              </p>
-              <a className="text-dark fs-4" href="https://github.com/Osvaldo1408exe" target="_blank" rel="noreferrer" />
-            </div>
+
+        
+
+        <footer className="bg-body-tertiary text-center text-lg-start mt-4">
+          <div className="text-center p-1" style={{backgroundColor: "rgba(0, 0, 0, 0.05)"}}>
+            <p className="mb-1 mb-md-0">
+              © 2024 Feito por Osvaldo Protazio
+              <a href="https://osvaldo1408exe.github.io/" className="text-decoration-underline text-dark fs-5" target="_blank" rel="noreferrer">
+                <FontAwesomeIcon icon={faGithub} />
+              </a>
+              <a href="https://github.com/Osvaldo1408exe" className="text-decoration-underline text-dark fs-5" target="_blank" rel="noreferrer">
+                <FontAwesomeIcon icon={faLinkedin} />
+              </a>
+            </p>
           </div>
         </footer>
+
       </>
   );
 }

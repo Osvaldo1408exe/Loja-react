@@ -132,7 +132,7 @@ export default function Cart() {
                         <span><strong>R${totalAmount.toFixed(2)}</strong></span>
                       </li>
                     </ul>
-                    <Link to="/checkout" className="btn btn-dark btn-lg btn-block">
+                    <Link to="/pagamento" className="btn btn-dark btn-lg btn-block">
                       Finalizar
                     </Link>
                   </div>
