@@ -10,7 +10,7 @@ Este projeto é uma loja fictícia desenvolvida em **React**, utilizando **Boots
 - **Redux**
 - **FontAwesome**
 - **API Fake Store**: Fornece os dados dos produtos para a loja.
-- - **API de localidades do IBGE**:  Fornece os dados dos endereços
+- **API de localidades do IBGE**:  Fornece os dados dos endereços
 
 ## Funcionalidades
 - **Exibição de Produtos**: Visualize produtos com detalhes como nome, descrição, preço e imagem.
