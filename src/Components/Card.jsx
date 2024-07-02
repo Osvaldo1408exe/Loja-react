@@ -12,11 +12,11 @@ export default function Card({ id, src, title, price,carrinho }) {
                 <h5 className="cards-title" style={{fontSize: '14px'}}>{title}</h5>
                 <p>R${price}</p>
                  <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-                        <Link to={"/" + id} className="btn btn-primary m-1">
+                        <Link to={"/items/" + id} className="btn btn-primary m-1">
                             Comprar
                         </Link>
                         <button className="btn btn-primary m-1" onClick={carrinho}>
-                            Carrinho
+                           adicionar ao Carrinho
                         </button>
                     </div>
             </div>

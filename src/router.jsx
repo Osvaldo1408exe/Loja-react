@@ -16,25 +16,20 @@ const router = createBrowserRouter([
         path:"/",
         element: <RouteLayout />,
         children:[
+            {index: true, element: <Home/>},
+
             {path: "carrinho", element: <Cart />},
             {path: "pagamento", element: <Checkout />},
             {path: "sobre", element: <About />},
             {path: "contato", element: <Contact />},
             {path: "entrar", element: <Login />},
             {path: "registrar", element: <Register />},
-            
-
-
-            {index: true, element: <Home/>},
            
-            {
-                path: "items",
-                element: <Layout/>,
-                children: [
-                    {index:true, element: <ListItems/>},
-                    {path: ":id", element: <ShowItem/>},
-                ]  
-            }
+             
+            {path: "items", element: <ListItems/>},
+            {path: "items/:id", element: <ShowItem/>},
+        
+            
 
         ]
     }
