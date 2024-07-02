@@ -1,7 +1,6 @@
 # Loja React
 
-Este projeto é uma loja fictícia desenvolvida em **React**, utilizando **Bootstrap** para o design e layout. A loja consome dados da [API Fake Store](https://fakestoreapi.com), permitindo a exibição de produtos fictícios e a  [API de localidades
-]([https://fakestoreapi.com](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1)) do IBGE para a Seleção dos estados e cidades na finalização da compra.
+Este site foi criado como parte do meu estudo pessoal. Atualmente, não possui sistema de login nem de compras. Desenvolvi este projeto para aprofundar meu conhecimento em React, já que, apesar de ser desenvolvedor Fullstack com foco em backend, queria melhorar minhas habilidades em front-end.
 
 ## Tecnologias Utilizadas
 - **React**
