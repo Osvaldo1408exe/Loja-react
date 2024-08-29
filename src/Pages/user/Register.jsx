@@ -48,6 +48,19 @@ export default function Register(){
                     </div>
                 </div>
             </div>
+            <footer className="text-center mt-2 fixed-bottom">
+                <div className="text-center" style={{backgroundColor: "rgba(0, 0, 0, 0.05)"}}>
+                    <p className="mb-md-0 pb-0">
+                    © 2024 Feito por Osvaldo Protazio
+                    <a href="https://github.com/Osvaldo1408exe" className="text-decoration-underline text-dark fs-5" target="_blank" rel="noreferrer">
+                        Github
+                    </a>
+                    <a href="https://www.linkedin.com/in/osvaldo-protazio/" className="text-decoration-underline text-dark fs-5" target="_blank" rel="noreferrer">
+                        Linkedin
+                    </a>
+                    </p>
+                </div>
+            </footer>
         </>
     )
 }
