@@ -1,7 +1,5 @@
 # Loja React
-
-Este site foi criado como parte do meu estudo pessoal. Atualmente, não possui sistema de login nem de compras apenas o front-end foi implementado. Desenvolvi este projeto para aprofundar meu conhecimento em React, já que, apesar de ser desenvolvedor Fullstack com foco em backend, queria melhorar minhas habilidades em front-end.
-
+Loja virtual com responsividade para várias telas
 ## Tecnologias Utilizadas
 - **React**
 - **Bootstrap**
